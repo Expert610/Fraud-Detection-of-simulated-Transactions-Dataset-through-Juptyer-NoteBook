@@ -1,6 +1,5 @@
 # 🚀 Fraud Detection Model – Machine Learning Approach  
 
-![Fraud Detection Banner](screenshot/banner.png) 
 
 This repository contains an **end-to-end fraud detection pipeline** for financial transactions.  
 The project demonstrates **data cleaning, feature engineering, machine learning model training, evaluation, and business insights** for preventing fraud in financial services.  
@@ -11,25 +10,28 @@ The project demonstrates **data cleaning, feature engineering, machine learning 
 1. **Data Cleaning**  
    - Handling missing values  
    - Removing outliers  
-   - Treating multicollinearity  
-![Fraud Detection Banner](screenshot/banner.png)
+   - Treating multicollinearity
+   - 
+![Fraud Detection Banner](Cleaning-Fraud.png)
 
 2. **Feature Engineering**  
    - Derived features from `step`, `amount`, `type`, `nameOrig`, `nameDest`  
    - Time-based fraud detection (day/night, transaction frequency)  
    - Normalized transaction amounts
-   - ![Fraud Detection Banner](screenshot/banner.png)
+   - 
+   - ![Fraud Detection Banner](feature-fraud.png)
 
 3. **Modeling**  
    - Baseline Model: **Logistic Regression**  
    - Final Model: **LightGBM** (boosted trees for efficiency + high performance)  
-![Fraud Detection Banner](screenshot/banner.png)
+
+   - ![Fraud Detection Banner](outliers-fraud.png)
 4. **Evaluation**  
    - Metrics: Precision, Recall, F1-score, ROC-AUC  
    - Feature importance visualization  
    - Business insights derived from results  
-![Fraud Detection Banner](screenshot/banner.png)
-![Fraud Detection Banner](screenshot/banner.png)
+![Fraud Detection Banner](result-Fraud.png)
+![Fraud Detection Banner](result-lgbm.png)
 ---
 
 📈 Business Insights
