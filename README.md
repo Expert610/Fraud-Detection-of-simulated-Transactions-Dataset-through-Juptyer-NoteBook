@@ -25,7 +25,7 @@ The project demonstrates **data cleaning, feature engineering, machine learning 
    - Baseline Model: **Logistic Regression**  
    - Final Model: **LightGBM** (boosted trees for efficiency + high performance)  
 
-   - ![Fraud Detection Banner](outliers-fraud.png)
+   - ![Fraud Detection Banner](outliers-Fraud.png)
 4. **Evaluation**  
    - Metrics: Precision, Recall, F1-score, ROC-AUC  
    - Feature importance visualization  
